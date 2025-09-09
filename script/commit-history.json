@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ce5a03fe2aef0353ca40e53e1c093d59964c20a0",
     "author": "FullMaury",
     "commit": {
       "date": "2025-09-09T23:55:07.000Z",
       "message": "jugador1 anota 1 punto = 15 puntos",
-      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/HEAD"
+      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/ce5a03fe2aef0353ca40e53e1c093d59964c20a0"
     },
     "stats": {
       "total": 15,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "FullMaury",
+    "commit": {
+      "date": "2025-09-09T23:57:18.000Z",
+      "message": "jugador2 anota 1 punto = 15 puntos",
+      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2025-09-09"
+    },
+    "coverage": 92.31,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -10,3 +10,11 @@ test('Player 1 scores a point, score should be 15-Love', () => {
     game.player1Scores();  // Llamamos a la función que implementaremos para que el Jugador 1 anote
     expect(game.getScore()).toBe('15-Love');  // Esta prueba fallará al principio
 });
+
+
+test('Player 2 scores a point, score should be 15-15', () => {
+    const game = new Game();
+    game.player1Scores();  // Jugador 1 anota
+    game.player2Scores();  // Jugador 2 anota
+    expect(game.getScore()).toBe('15-15');  // Esta prueba fallará al principio
+});
