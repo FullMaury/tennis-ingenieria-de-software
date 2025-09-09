@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "ce95c50113ac8b9a4dca677c94d71fb807236d30",
     "author": "FullMaury",
     "commit": {
       "date": "2025-09-09T23:52:44.000Z",
       "message": "marcador en love-love",
-      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/HEAD"
+      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/ce95c50113ac8b9a4dca677c94d71fb807236d30"
     },
     "stats": {
       "total": 19,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "FullMaury",
+    "commit": {
+      "date": "2025-09-09T23:55:07.000Z",
+      "message": "jugador1 anota 1 punto = 15 puntos",
+      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2025-09-09"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
