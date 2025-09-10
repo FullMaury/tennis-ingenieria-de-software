@@ -14,24 +14,24 @@
     <script type="module">
         import Game from './src/game.js';  // Asegúrate de que la ruta sea correcta
 
-        const game = new Game();  // Crear una instancia de Game
+        const game = new Game();
 
         function updateScore() {
             const scoreElement = document.getElementById('score');
-            scoreElement.textContent = game.getScore();  // Actualiza el marcador
+            scoreElement.textContent = game.getScore();
         }
 
         function player1Scores() {
-            game.player1Scores();  // Jugador 1 anota
-            updateScore();  // Actualiza el marcador
+            game.player1Scores();
+            updateScore();
         }
 
         function player2Scores() {
-            game.player2Scores();  // Jugador 2 anota
-            updateScore();  // Actualiza el marcador
+            game.player2Scores();
+            updateScore();
         }
 
-        updateScore();  // Inicializa el marcador
+        updateScore();  // Inicializamos el marcador
     </script>
 </body>
 </html>

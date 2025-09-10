@@ -81,8 +81,9 @@ class Game {
             return 'Game for Player 2';
         }
 
+        // En cualquier otro caso, el marcador sigue igual
         return 'Love-Love';
     }
 }
 
-export default Game;  // Usa export default para módulos ES6
+module.exports = Game;
