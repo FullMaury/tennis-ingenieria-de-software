@@ -57,12 +57,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "547d8dfedd847ebda3c5c425b8897d38e8640f44",
     "author": "FullMaury",
     "commit": {
       "date": "2025-09-10T00:07:13.000Z",
       "message": "subiendo codigo final",
-      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/HEAD"
+      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/547d8dfedd847ebda3c5c425b8897d38e8640f44"
     },
     "stats": {
       "total": 108,
@@ -74,5 +74,24 @@
     "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "FullMaury",
+    "commit": {
+      "date": "2025-09-10T00:18:34.000Z",
+      "message": "se anadio html",
+      "url": "https://github.com/FullMaury/tennis-ingenieria-de-software/commit/HEAD"
+    },
+    "stats": {
+      "total": 53,
+      "additions": 35,
+      "deletions": 18,
+      "date": "2025-09-10"
+    },
+    "coverage": 2.27,
+    "test_count": 8,
+    "failed_tests": 7,
+    "conclusion": "failure"
   }
 ]
